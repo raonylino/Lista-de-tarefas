@@ -72,7 +72,7 @@ class _InitialScreenState extends State<InitialScreen> {
                     ),
                   ),
                   Text(
-                    'Level ${level}',
+                    'Level ${(level.toInt())}',
                     style: const TextStyle(color: Colors.white, fontSize: 16),
                   ),
                 ],
